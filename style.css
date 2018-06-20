@@ -4,15 +4,50 @@
 
 .properties {
     background-color: red;
-    width: 60%;
-    height: 100vh;
+    width: 50%;
+    height: 170vh;
+    margin-right: 7%;
     display: inline-block;
 }
 
 .saved-properties {
     background-color: pink;
     width: 39%;
-    height: 100vh;
+    height: 170vh;
     display: inline-block;
 
+}
+
+.card1, .card2, .card3 {
+    border: 1px solid black;
+    width: 70%;
+    height: 49vh;
+    margin: 2px auto;
+}
+
+.logo1, .logo2, .logo3 {
+    border: 1px solid black;
+    width: 50%;
+    height: 7vh;
+}
+
+.image1, .image2, .image3 {
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+}
+
+.price1, .price2, .price3 {
+    border: 1px solid black;
+    width: 20%;
+    height: 48px;
+    float: right;
+}
+
+.properties > h1 {
+    text-align: center;
+}
+
+.saved-properties > h1 {
+    text-align: center;
 }
