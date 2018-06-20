@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.properties {
+    background-color: red;
+    width: 60%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.saved-properties {
+    background-color: pink;
+    width: 39%;
+    height: 100vh;
+    display: inline-block;
+
+}
