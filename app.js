@@ -53,4 +53,20 @@ var data = {
         ]
 }
 
+// var $logo1si= document.querySelector('.logo1');
+
+// var logo1 = $("<img>");
+// logo1.attr("src", data.results[0].agency.logo);
+
+// $logo1si.append(logo1);
+
+var logo1 = document.querySelector('.logo1');
+var image1 = document.querySelector('.image1')
+var price1 = document.querySelector('.price1');
+
+logo1.innerHTML = data.results[0].agency.logo;
+image1.innerHTML = data.results[0].mainImage;
+price1.innerHTML = data.results[0].price;
+
+
     
